@@ -1,0 +1,101 @@
+<circuit version="1.1.0-RC0" rev="1909" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Resistor" CircId="Resistor-114" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-72,-288" rotation="90" hflip="1" vflip="1" label="Resistor-114" idLabPos="-16,-24" labelrot="0" valLabPos="-9.55167,-18.3857" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Resistor" CircId="Resistor-133" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-8,-316" rotation="90" hflip="1" vflip="1" label="Resistor-133" idLabPos="-16,-24" labelrot="0" valLabPos="-10.3104,6.81995" valLabRot="0" Resistance="4.7 kΩ" />
+
+<item itemtype="Battery" CircId="Battery-129" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-168,-172" rotation="90" hflip="1" vflip="1" label="Battery-129" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="0.001 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-144" mainComp="false" Show_id="true" Show_Val="false" Pos="88,-296" rotation="90" hflip="1" vflip="1" label="Motor 24v" idLabPos="-54.2373,50.2718" labelrot="-90" valLabPos="-14,36" valLabRot="0" RPM_Nominal="200 _RPM" Volt_Nominal="24 V" Resistance="100 Ω" />
+
+<item itemtype="Ground" CircId="Ground-196" mainComp="false" Show_id="false" Show_Val="false" Pos="-32,-132" rotation="0" hflip="1" vflip="1" label="Ground-196" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Battery" CircId="Battery-183" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-104,-356" rotation="0" hflip="-1" vflip="1" label="Battery-183" idLabPos="-18,-22" labelrot="0" valLabPos="-8.61489,10.4617" valLabRot="0" Voltage="12 V" Resistance="0.001 Ω" />
+
+<item itemtype="Led" CircId="Led-134" mainComp="false" Show_id="false" Show_Val="false" Pos="-8,-276" rotation="90" hflip="1" vflip="1" label="Led-134" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="false" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-184" mainComp="false" Show_id="false" Show_Val="false" Pos="-128,-312" rotation="0" hflip="1" vflip="1" label="Ground-184" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-204" mainComp="false" Show_id="false" Show_Val="false" Pos="28,-156" rotation="0" hflip="1" vflip="1" label="TextComponent-204" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="1 _Pixels" Border="0 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="7 _Pixels" Font_Color="#000080" Fixed_Width="false" Text="Oscar Núñez Mori" />
+
+<item itemtype="Switch" CircId="Switch-128" mainComp="false" Show_id="false" Show_Val="false" Pos="-168,-212" rotation="-90" hflip="1" vflip="1" label="Switch-128" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Diode" CircId="Diode-120" mainComp="false" Show_id="true" Show_Val="false" Pos="32,-296" rotation="-90" hflip="1" vflip="1" label="1N4007" idLabPos="-20.9197,-21.5402" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Battery" CircId="Battery-185" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-32,-356" rotation="0" hflip="-1" vflip="1" label="Battery-185" idLabPos="-18,-22" labelrot="0" valLabPos="-8.61489,10.4617" valLabRot="0" Voltage="12 V" Resistance="0.001 Ω" />
+
+<item itemtype="Ground" CircId="Ground-130" mainComp="false" Show_id="false" Show_Val="false" Pos="-168,-132" rotation="0" hflip="1" vflip="1" label="Ground-130" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="BJT" CircId="BJT-200" mainComp="false" Show_id="true" Show_Val="false" Pos="-80,-236" rotation="0" hflip="1" vflip="1" label="2N2222A" idLabPos="-42.2662,-27.8783" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Resistor" CircId="Resistor-124" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-72,-188" rotation="90" hflip="1" vflip="1" label="Resistor-124" idLabPos="-16,-24" labelrot="0" valLabPos="-8.31716,6.51996" valLabRot="0" Resistance="100 kΩ" />
+
+<item itemtype="Mosfet" CircId="Mosfet-110" mainComp="false" Show_id="true" Show_Val="false" Pos="-40,-212" rotation="0" hflip="1" vflip="1" label="IRFZ48N" idLabPos="19.6834,-6.789" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="0.02 Ω" Threshold="3 V" />
+
+<item itemtype="Resistor" CircId="Resistor-199" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-128,-236" rotation="0" hflip="1" vflip="1" label="Resistor-199" idLabPos="-16,-24" labelrot="0" valLabPos="-9.85039,9.68977" valLabRot="0" Resistance="4.7 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-125" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,-132" rotation="0" hflip="1" vflip="1" label="Ground-125" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-193" mainComp="false" Pos="-8,-356" />
+
+<item itemtype="Node" CircId="Node-203" mainComp="false" Pos="-72,-212" />
+
+<item itemtype="Node" CircId="Node-201" mainComp="false" Pos="-72,-356" />
+
+<item itemtype="Node" CircId="Node-190" mainComp="false" Pos="-8,-244" />
+
+<item itemtype="Node" CircId="Node-194" mainComp="false" Pos="32,-356" />
+
+<item itemtype="Node" CircId="Node-192" mainComp="false" Pos="32,-244" />
+
+<item itemtype="Connector" uid="Connector-425" startpinid="Node-203-2" endpinid="Resistor-124-lPin" pointList="-72,-212,-72,-204" />
+
+<item itemtype="Connector" uid="Connector-404" startpinid="Node-193-1" endpinid="Node-194-0" pointList="-8,-356,32,-356" />
+
+<item itemtype="Connector" uid="Connector-298" startpinid="Led-134-lPin" endpinid="Resistor-133-rPin" pointList="-8,-292,-8,-300" />
+
+<item itemtype="Connector" uid="Connector-390" startpinid="Mosfet-110-Dren" endpinid="Node-190-0" pointList="-32,-228,-32,-244,-8,-244" />
+
+<item itemtype="Connector" uid="Connector-391" startpinid="Node-190-2" endpinid="Led-134-rPin" pointList="-8,-244,-8,-260" />
+
+<item itemtype="Connector" uid="Connector-424" startpinid="BJT-200-emiter" endpinid="Node-203-0" pointList="-72,-220,-72,-212" />
+
+<item itemtype="Connector" uid="Connector-396" startpinid="Node-192-1" endpinid="DcMotor-144-rPin" pointList="32,-244,88,-244,88,-256" />
+
+<item itemtype="Connector" uid="Connector-414" startpinid="Node-201-2" endpinid="Battery-185-rPin" pointList="-72,-356,-48,-356" />
+
+<item itemtype="Connector" uid="Connector-402" startpinid="Node-193-2" endpinid="Resistor-133-lPin" pointList="-8,-356,-8,-332" />
+
+<item itemtype="Connector" uid="Connector-423" startpinid="Mosfet-110-Gate" endpinid="Node-203-1" pointList="-56,-212,-72,-212" />
+
+<item itemtype="Connector" uid="Connector-416" startpinid="Resistor-199-rPin" endpinid="BJT-200-base" pointList="-112,-236,-96,-236" />
+
+<item itemtype="Connector" uid="Connector-403" startpinid="Node-194-1" endpinid="DcMotor-144-lPin" pointList="32,-356,88,-356,88,-336" />
+
+<item itemtype="Connector" uid="Connector-401" startpinid="Battery-185-lPin" endpinid="Node-193-0" pointList="-16,-356,-8,-356" />
+
+<item itemtype="Connector" uid="Connector-408" startpinid="Ground-196-Gnd" endpinid="Mosfet-110-Sour" pointList="-32,-148,-32,-196" />
+
+<item itemtype="Connector" uid="Connector-417" startpinid="BJT-200-collector" endpinid="Resistor-114-rPin" pointList="-72,-252,-72,-272" />
+
+<item itemtype="Connector" uid="Connector-289" startpinid="Ground-130-Gnd" endpinid="Battery-129-rPin" pointList="-168,-148,-168,-156" />
+
+<item itemtype="Connector" uid="Connector-287" startpinid="Ground-125-Gnd" endpinid="Resistor-124-rPin" pointList="-72,-148,-72,-172" />
+
+<item itemtype="Connector" uid="Connector-377" startpinid="Ground-184-Gnd" endpinid="Battery-183-rPin" pointList="-128,-328,-128,-356,-120,-356" />
+
+<item itemtype="Connector" uid="Connector-398" startpinid="Node-192-2" endpinid="Diode-120-lPin" pointList="32,-244,32,-280" />
+
+<item itemtype="Connector" uid="Connector-405" startpinid="Node-194-2" endpinid="Diode-120-rPin" pointList="32,-356,32,-312" />
+
+<item itemtype="Connector" uid="Connector-412" startpinid="Resistor-114-lPin" endpinid="Node-201-1" pointList="-72,-304,-72,-356" />
+
+<item itemtype="Connector" uid="Connector-415" startpinid="Switch-128-switch0pinN" endpinid="Resistor-199-lPin" pointList="-168,-228,-168,-236,-144,-236" />
+
+<item itemtype="Connector" uid="Connector-290" startpinid="Battery-129-lPin" endpinid="Switch-128-pinP0" pointList="-168,-188,-168,-196" />
+
+<item itemtype="Connector" uid="Connector-397" startpinid="Node-190-1" endpinid="Node-192-0" pointList="-8,-244,32,-244" />
+
+<item itemtype="Connector" uid="Connector-413" startpinid="Battery-183-lPin" endpinid="Node-201-0" pointList="-88,-356,-72,-356" />
+
+</circuit>
