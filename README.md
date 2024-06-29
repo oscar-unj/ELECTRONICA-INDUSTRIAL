@@ -1,2 +1,2 @@
-# ELECTRONICA_INDUSTRIAL
-Circuicos Electrónicos para el Curso de Electrónica Industrial Aplicada.
+# ELECTRONICA-INDUSTRIAL
+Circuitos Electrónicos para el Curso de Electrónica Industrial Aplicada.
