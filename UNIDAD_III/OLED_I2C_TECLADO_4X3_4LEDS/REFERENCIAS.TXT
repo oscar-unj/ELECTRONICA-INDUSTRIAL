@@ -1,0 +1,6 @@
+
+// REFERENCIAS
+// Basado en:
+// [1]. Stephen Denne (s.f.). Tiny4kOLED. https://github.com/datacute/Tiny4kOLED
+// [2]. OpenAI. (2024). ChatGPT (Ver. Oct. 08) [OLED I2C con Tiny4koled].
+//      https://chatgpt.com/share/67059c2f-8774-8013-91a1-d71d491860c0
